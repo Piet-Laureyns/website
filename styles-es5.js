@@ -7,7 +7,7 @@
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RSIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cbiJdfQ== */", '', '']]
+module.exports = [[module.i, "/* You can add global styles to this file, and also import other style files */\n\nbody{\n    font-family: Roboto,Tahoma,Arial,sans-serif;\n    /* overflow-y: hidden; */\n}\n\n:root{\n    --black: #343a40;\n    --gold: #f9d371;\n    --customGray: #5A6670;\n    --darkGold: #a77b3f;\n    --lightRed: #F98471;\n    --darkRed: #7A4239;\n    --lightGreen: #86F971;\n    --darkGreen: #447D39;\n}\n\n:root  .center {\n  text-align: center;\n}\n\nhtml {\n  overflow: hidden;\n}\n\nhtml, body {\n  height: 100%;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9zdHlsZXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBLDhFQUE4RTs7QUFFOUU7SUFDSSwyQ0FBMkM7SUFDM0Msd0JBQXdCO0FBQzVCOztBQUVBO0lBQ0ksZ0JBQWdCO0lBQ2hCLGVBQWU7SUFDZixxQkFBcUI7SUFDckIsbUJBQW1CO0lBQ25CLG1CQUFtQjtJQUNuQixrQkFBa0I7SUFDbEIscUJBQXFCO0lBQ3JCLG9CQUFvQjtBQUN4Qjs7QUFFQTtFQUNFLGtCQUFrQjtBQUNwQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLFlBQVk7QUFDZCIsImZpbGUiOiJzcmMvc3R5bGVzLmNzcyIsInNvdXJjZXNDb250ZW50IjpbIi8qIFlvdSBjYW4gYWRkIGdsb2JhbCBzdHlsZXMgdG8gdGhpcyBmaWxlLCBhbmQgYWxzbyBpbXBvcnQgb3RoZXIgc3R5bGUgZmlsZXMgKi9cblxuYm9keXtcbiAgICBmb250LWZhbWlseTogUm9ib3RvLFRhaG9tYSxBcmlhbCxzYW5zLXNlcmlmO1xuICAgIC8qIG92ZXJmbG93LXk6IGhpZGRlbjsgKi9cbn1cblxuOnJvb3R7XG4gICAgLS1ibGFjazogIzM0M2E0MDtcbiAgICAtLWdvbGQ6ICNmOWQzNzE7XG4gICAgLS1jdXN0b21HcmF5OiAjNUE2NjcwO1xuICAgIC0tZGFya0dvbGQ6ICNhNzdiM2Y7XG4gICAgLS1saWdodFJlZDogI0Y5ODQ3MTtcbiAgICAtLWRhcmtSZWQ6ICM3QTQyMzk7XG4gICAgLS1saWdodEdyZWVuOiAjODZGOTcxO1xuICAgIC0tZGFya0dyZWVuOiAjNDQ3RDM5O1xufVxuXG46cm9vdCAgLmNlbnRlciB7XG4gIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuaHRtbCB7XG4gIG92ZXJmbG93OiBoaWRkZW47XG59IFxuXG5odG1sLCBib2R5IHtcbiAgaGVpZ2h0OiAxMDAlO1xufSJdfQ== */", '', '']]
 
 /***/ }),
 
@@ -557,7 +557,7 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! C:\Users\Piet Laureyns\Desktop\Mijn Website\pietlaureyns\src\styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! C:\Users\Piet Laureyns\Desktop\stuff\Mijn Website\pietlaureyns\src\styles.css */"./src/styles.css");
 
 
 /***/ })
