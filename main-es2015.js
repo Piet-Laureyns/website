@@ -118,7 +118,7 @@ module.exports = "<h1 class=\"center\">404: Page Not Found</h1>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"center\">Stage</h1>\n<div class=\"card center\">\n        <img src=\"../../assets/regas.png\" id=\"regasLogo\">\n        <img src=\"../../assets/angular.png\" id=\"angularLogo\">\n</div>\n\n<div class=\"center\" *ngFor=\"let imgUrl of imageUrls\">\n    <p>{{imgUrl}}</p>\n    <img src=\"{{imgUrl}}\" alt=\"test\">\n</div>\n"
+module.exports = "<h1 class=\"center\">Stage</h1>\n<div class=\"card center\">\n        <img src=\"./assets/regas.png\" id=\"regasLogo\">\n        <img src=\"./assets/angular.png\" id=\"angularLogo\">\n</div>\n\n<div class=\"center\" *ngFor=\"let imgUrl of imageUrls\">\n    <p>{{imgUrl}}</p>\n    <img src=\"{{imgUrl}}\" alt=\"test\">\n</div>\n"
 
 /***/ }),
 
@@ -574,7 +574,7 @@ __webpack_require__.r(__webpack_exports__);
 let StageComponent = class StageComponent {
     constructor() { }
     ngOnInit() {
-        let url = "../assets/stage-images/";
+        let url = "./assets/stage-images/";
         this.imageUrls = [url + "CreateClient.png", url + "SearchClient.png", url + "CareProduct.png", url + "AddCareProduct.png"];
     }
 };

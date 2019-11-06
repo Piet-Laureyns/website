@@ -118,7 +118,7 @@ module.exports = "<h1 class=\"center\">404: Page Not Found</h1>\n"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h1 class=\"center\">Stage</h1>\n<div class=\"card center\">\n        <img src=\"../../assets/regas.png\" id=\"regasLogo\">\n        <img src=\"../../assets/angular.png\" id=\"angularLogo\">\n</div>\n\n<div class=\"center\" *ngFor=\"let imgUrl of imageUrls\">\n    <p>{{imgUrl}}</p>\n    <img src=\"{{imgUrl}}\" alt=\"test\">\n</div>\n"
+module.exports = "<h1 class=\"center\">Stage</h1>\n<div class=\"card center\">\n        <img src=\"./assets/regas.png\" id=\"regasLogo\">\n        <img src=\"./assets/angular.png\" id=\"angularLogo\">\n</div>\n\n<div class=\"center\" *ngFor=\"let imgUrl of imageUrls\">\n    <p>{{imgUrl}}</p>\n    <img src=\"{{imgUrl}}\" alt=\"test\">\n</div>\n"
 
 /***/ }),
 
@@ -592,7 +592,7 @@ var StageComponent = /** @class */ (function () {
     function StageComponent() {
     }
     StageComponent.prototype.ngOnInit = function () {
-        var url = "../assets/stage-images/";
+        var url = "./assets/stage-images/";
         this.imageUrls = [url + "CreateClient.png", url + "SearchClient.png", url + "CareProduct.png", url + "AddCareProduct.png"];
     };
     StageComponent = tslib__WEBPACK_IMPORTED_MODULE_0__["__decorate"]([
